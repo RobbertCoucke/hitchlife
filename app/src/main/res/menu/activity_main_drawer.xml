@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/contacts_menuItem"
+            android:icon="@drawable/ic_baseline_account_box_24px"
+            android:title="Contacts" />
+        <item android:id="@+id/logs_menuItem"
+            android:icon="@drawable/ic_baseline_account_box_24px"
+            android:title="Logs" />
+        <item android:id="@+id/camera_menuItem"
+            android:icon="@drawable/ic_baseline_account_box_24px"
+            android:title="Camera" />
+    </group>
+
+</menu>
